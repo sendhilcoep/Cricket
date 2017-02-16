@@ -1,0 +1,12 @@
+﻿The input file is in CSV format. Each line contains 10 fields, as follows:
+
+- Innings number: 1 or 2
+- Over and ball
+- Batting team name
+- Batsman name
+- Non-striker name
+- Bowler name
+- Runs-off-bat - a single number
+- Extras - this consists of the number of runs scored, followed by a suffix to indicate type of extras. The suffix can be one of: `nb`, `w`, `b`, `lb`, and `p`. These stand for, respectively: no ball, wide, byes, leg byes, and penalty for any other reason.
+- Kind of wicket, if any. This can be one of: `bowled`, `caught`, `stumped`, `run out`, `lbw`, `handled the ball`, `hit wicket`, `double touch`, `obstructed field`, `timed out`, `retired out`. 
+- Name of dismissed player, if there was a wicket
